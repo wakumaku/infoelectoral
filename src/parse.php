@@ -53,5 +53,7 @@ const MUNICIPIOS = MUNICIPIOS_INE + MUNICIPIOS_INEXISTENTES;
 // Interpreta el contenido del fichero
 $results = parseFile($file['Código'], $filename);
 
-print_r($file);
-print_r($results);
+// print_r($file);
+// print_r($results);
+
+print(serialize($results));
